@@ -1,0 +1,22 @@
+{
+  "name": "extract-nestjs-endpoints",
+  "version": "1.0.0",
+  "description": "Tool to extract endpoints from NestJS projects",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "bin": {
+    "extract-endpoints": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": ["nestjs", "endpoints", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  }
+}
